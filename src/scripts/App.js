@@ -111,7 +111,7 @@ class App {
 
     const body = document.body;
 
-    if (isNightTime) {
+    if (!isNightTime) {
       body.classList.add("mode--day");
       body.classList.remove("mode--night");
     } else {
